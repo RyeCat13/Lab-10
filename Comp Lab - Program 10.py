@@ -19,9 +19,6 @@ if __name__ == '__main__':
                         word_dict[word] = word_dict[word] + 1
                     else:
                         word_dict[word] = 1
-
-
-                
                 
                 word_dict = dict(sorted(word_dict.items(), reverse=True))
                 counter = 1
